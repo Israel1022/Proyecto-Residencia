@@ -1,0 +1,20 @@
+[2024-04-10 15:50:51] local.ERROR: require(C:\MAMP\htdocs\sigs\adm-bend-mainv\bootstrap/../routes/web.php): failed to open stream: No such file or directory {"exception":"[object] (ErrorException(code: 0): require(C:\\MAMP\\htdocs\\sigs\\adm-bend-mainv\\bootstrap/../routes/web.php): failed to open stream: No such file or directory at C:\\MAMP\\htdocs\\sigs\\adm-bend-mainv\\bootstrap\\app.php:147)
+[stacktrace]
+#0 C:\\MAMP\\htdocs\\sigs\\adm-bend-mainv\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RegistersExceptionHandlers.php(47): Laravel\\Lumen\\Application->handleError(2, 'require(C:\\\\MAMP...', 'C:\\\\MAMP\\\\htdocs\\\\...', 147)
+#1 C:\\MAMP\\htdocs\\sigs\\adm-bend-mainv\\bootstrap\\app.php(147): Laravel\\Lumen\\Application->Laravel\\Lumen\\Concerns\\{closure}(2, 'require(C:\\\\MAMP...', 'C:\\\\MAMP\\\\htdocs\\\\...', 147, Array)
+#2 C:\\MAMP\\htdocs\\sigs\\adm-bend-mainv\\bootstrap\\app.php(147): require()
+#3 C:\\MAMP\\htdocs\\sigs\\adm-bend-mainv\\vendor\\laravel\\lumen-framework\\src\\Routing\\Router.php(62): {closure}(Object(Laravel\\Lumen\\Routing\\Router))
+#4 C:\\MAMP\\htdocs\\sigs\\adm-bend-mainv\\bootstrap\\app.php(148): Laravel\\Lumen\\Routing\\Router->group(Array, Object(Closure))
+#5 C:\\MAMP\\htdocs\\sigs\\adm-bend-mainv\\public\\index.php(13): require('C:\\\\MAMP\\\\htdocs\\\\...')
+#6 {main}
+"} 
+[2024-04-10 15:51:28] local.ERROR: require(C:\MAMP\htdocs\sigs\adm-bend-mainv\bootstrap/../routes/web.php): failed to open stream: No such file or directory {"exception":"[object] (ErrorException(code: 0): require(C:\\MAMP\\htdocs\\sigs\\adm-bend-mainv\\bootstrap/../routes/web.php): failed to open stream: No such file or directory at C:\\MAMP\\htdocs\\sigs\\adm-bend-mainv\\bootstrap\\app.php:147)
+[stacktrace]
+#0 C:\\MAMP\\htdocs\\sigs\\adm-bend-mainv\\vendor\\laravel\\lumen-framework\\src\\Concerns\\RegistersExceptionHandlers.php(47): Laravel\\Lumen\\Application->handleError(2, 'require(C:\\\\MAMP...', 'C:\\\\MAMP\\\\htdocs\\\\...', 147)
+#1 C:\\MAMP\\htdocs\\sigs\\adm-bend-mainv\\bootstrap\\app.php(147): Laravel\\Lumen\\Application->Laravel\\Lumen\\Concerns\\{closure}(2, 'require(C:\\\\MAMP...', 'C:\\\\MAMP\\\\htdocs\\\\...', 147, Array)
+#2 C:\\MAMP\\htdocs\\sigs\\adm-bend-mainv\\bootstrap\\app.php(147): require()
+#3 C:\\MAMP\\htdocs\\sigs\\adm-bend-mainv\\vendor\\laravel\\lumen-framework\\src\\Routing\\Router.php(62): {closure}(Object(Laravel\\Lumen\\Routing\\Router))
+#4 C:\\MAMP\\htdocs\\sigs\\adm-bend-mainv\\bootstrap\\app.php(148): Laravel\\Lumen\\Routing\\Router->group(Array, Object(Closure))
+#5 C:\\MAMP\\htdocs\\sigs\\adm-bend-mainv\\public\\index.php(13): require('C:\\\\MAMP\\\\htdocs\\\\...')
+#6 {main}
+"} 
